@@ -1,7 +1,0 @@
-C:\Users\Paradox\Documents\Visual Studio 2013\Projects\CompViewer\CVViewModel\bin\Debug\CVViewModel.dll
-C:\Users\Paradox\Documents\Visual Studio 2013\Projects\CompViewer\CVViewModel\bin\Debug\CVViewModel.pdb
-C:\Users\Paradox\Documents\Visual Studio 2013\Projects\CompViewer\CVViewModel\bin\Debug\DecoratorP.exe
-C:\Users\Paradox\Documents\Visual Studio 2013\Projects\CompViewer\CVViewModel\bin\Debug\DecoratorP.pdb
-C:\Users\Paradox\Documents\Visual Studio 2013\Projects\CompViewer\CVViewModel\obj\Debug\CVViewModel.csprojResolveAssemblyReference.cache
-C:\Users\Paradox\Documents\Visual Studio 2013\Projects\CompViewer\CVViewModel\obj\Debug\CVViewModel.dll
-C:\Users\Paradox\Documents\Visual Studio 2013\Projects\CompViewer\CVViewModel\obj\Debug\CVViewModel.pdb
