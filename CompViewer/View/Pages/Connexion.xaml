@@ -1,0 +1,25 @@
+﻿<Page x:Class="CompViewer.Connexion"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+	Title="Connexion">
+    <Grid>
+        <Grid Height="268" Margin="0,182,0,0" VerticalAlignment="Top">
+            <Border BorderBrush="Black" BorderThickness="1" Height="160" VerticalAlignment="Top" Margin="198,-2,204,0"/>
+            <TextBox x:Name="passTxtBox1"  Text="{Binding Member.Password, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="24" Margin="360,91,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="144"/>
+            <TextBox x:Name="loginTxtBox1" Text="{Binding Member.Login, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="24" Margin="360,42,0,0" TextWrapping="Wrap"     VerticalAlignment="Top" Width="144"/>
+            <TextBlock HorizontalAlignment="Left" Margin="260,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Language="fr-fr" Text="Login"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="260,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" FontWeight="Bold"><Run Language="fr-fr" Text="Password"/></TextBlock>
+            <Button x:Name="connexionBtn" Command="{Binding UpdateCommand}"  Content="Connexion" Margin="291,214,296,0" VerticalAlignment="Top" Height="44"/>
+        </Grid>
+        <Grid Height="54" Margin="0,30,0,0" VerticalAlignment="Top">
+            <TextBlock Height="55" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" TextAlignment="Center" FontWeight="Bold"><Run Language="fr-fr" Text="Bienvennue dans CompViewer"/></TextBlock>
+        </Grid>
+        <Grid Height="54" Margin="0,123,0,0" VerticalAlignment="Top">
+            <TextBlock Height="32" Margin="200,28,206,-6" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="16" FontWeight="Bold"><Run Language="fr-fr" Text="Veuillez vous identifiez : "/></TextBlock>
+        </Grid>
+    </Grid>
+</Page>
